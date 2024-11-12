@@ -61,8 +61,7 @@ dari langkah 9 yang di tambahkan
 
     dispose(): Dipakai untuk membersihkan sumber daya yang telah digunakan oleh widget sebelum widget dihapus atau tidak digunakan lagi, seperti memanggil dispose() pada ScrollController untuk mencegah memory leaks.
 
-## Praktikum 2: Mengelola Data Layer dengan InheritedWidget dan
-InheritedNotifier
+## Praktikum 2: Mengelola Data Layer dengan InheritedWidget dan InheritedNotifier
 
 1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil
 akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada
