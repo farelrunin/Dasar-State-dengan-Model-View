@@ -63,6 +63,7 @@ dari langkah 9 yang di tambahkan
 
 ## Praktikum 2: Mengelola Data Layer dengan InheritedWidget dan InheritedNotifier
 
+## soal
 1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil
 akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada
 yang error atau tidak berjalan dengan baik, silakan diperbaiki sesuai dengan tujuan
@@ -75,3 +76,44 @@ dilakukan demikian?
 Anda buat!
 5. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke
 spreadsheet yang telah disediakan!
+
+## jawab
+
+1 Dokumentasi
+
+2 Jelaskan mana yang dimaksud InheritedWidget pada langkah 1 tersebut! Mengapa
+yang digunakan InheritedNotifier?
+
+    InheritedWidget adalah kelas yang memungkinkan kita untuk membagikan data ke widget lain dalam tree tanpa harus melewatkannya secara eksplisit melalui konstruktor. Namun, InheritedWidget tidak memberi tahu widget anak ketika data berubah.
+
+    Karena itu, saya menggunakan InheritedNotifier di sini. InheritedNotifier adalah subclass dari InheritedWidget yang mendukung notifier seperti ValueNotifier. Ini memungkinkan widget anak untuk tidak hanya mendapatkan data, tetapi juga menerima pemberitahuan dan melakukan pembaruan UI secara otomatis ketika data tersebut berubah. Jadi, dengan InheritedNotifier, perubahan pada objek Plan akan memicu pembaruan pada widget yang bergantung padanya. 
+
+3 Jelaskan maksud dari method di langkah 3 pada praktikum tersebut! Mengapa
+dilakukan demikian?
+
+    completedCount: Menghitung jumlah tugas yang selesai.
+
+    completenessMessage: Memberikan pesan yang menunjukkan progres tugas, dengan jumlah tugas yang selesai dan total tugas.
+
+    Kedua metode ini bertujuan untuk memberikan informasi terkait progres dan status tugas dalam Plan, membantu pengguna melacak dan memahami sejauh mana mereka telah menyelesaikan tugas yang ada.
+4. Lakukan capture hasil dari method dari langkah 9 berupa GIF, kemudian jelaskan apa yang telah anda buat!
+
+    Menambahkan SafeArea: Widget SafeArea ditambahkan di bawah widget _buildList(plan) dalam Column. Fungsi utama dari SafeArea adalah memastikan bahwa widget di dalamnya tidak tumpang tindih dengan area yang tidak dapat diakses, seperti bagian bawah layar yang digunakan oleh tombol sistem (misalnya, Home, Back, atau navigasi lainnya). Dengan menempatkan Text(plan.completenessMessage) di dalam SafeArea, Anda memastikan bahwa pesan progres tugas tetap terlihat dengan baik meskipun berada di area bawah layar.
+
+    Menampilkan completenessMessage: Di dalam SafeArea, Anda menampilkan pesan yang memberikan informasi progres tugas, yang dihitung menggunakan metode completenessMessage. Pesan ini akan memperlihatkan jumlah tugas yang telah selesai dan jumlah total tugas, misalnya, "3 out of 5 tasks".
+
+![Sreenshoot](/assets/images/image9.png) 
+
+## Praktikum 3: Membuat State di Multiple Screens
+
+# soal
+
+1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki sesuai dengan tujuan aplikasi tersebut dibuat.
+2. Berdasarkan Praktikum 3 yang telah Anda lakukan, jelaskan maksud dari gambar diagram berikut ini!
+3. Lakukan capture hasil dari Langkah 14 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
+4. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
+
+
+
+
+
