@@ -45,7 +45,7 @@ konstanta ?
 4 Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah
 Anda buat!
 
-![Sreenshoot](assets\images\image4.png) 
+![Sreenshoot](../assets/images/image4.png) 
 
 dari langkah 9 yang di tambahkan 
 
