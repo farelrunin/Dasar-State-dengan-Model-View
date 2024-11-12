@@ -24,7 +24,7 @@ class _PlanScreenState extends State<PlanScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Master Plan')),
+      appBar: AppBar(title: const Text('Farel Indra Syahputra')),
       body: _buildList(),
       floatingActionButton: _buildAddTaskButton(),  // Memanggil _buildAddTaskButton
     );
@@ -95,3 +95,5 @@ class _PlanScreenState extends State<PlanScreen> {
     super.dispose();
   }
 }
+
+
