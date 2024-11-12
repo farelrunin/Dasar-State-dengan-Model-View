@@ -22,7 +22,7 @@ spreadsheet yang telah disediakan!
 
 1 hasil pratikum dokumentasi
  
- ![screenshoot praktikum_model_view](assets/images/hasil.png)
+ ![screenshoot praktikum_model_view](../assets/images/hasil.png)
 
 2 Jelaskan maksud dari langkah 4 pada praktikum tersebut! Mengapa dilakukan
 demikian?
