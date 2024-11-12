@@ -1,16 +1,18 @@
-# master_plan
+### Nama    : Farel Indra Syahputra 
+## Nim      : 362358302171
+# Kelas     : 2D
 
-A new Flutter project.
+# Tugas Praktikum 1: Dasar State dengan Model-View
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil
+akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada
+yang error atau tidak berjalan dengan baik, silakan diperbaiki.
+2. Jelaskan maksud dari langkah 4 pada praktikum tersebut! Mengapa dilakukan
+demikian?
+3. Mengapa perlu variabel plan di langkah 6 pada praktikum tersebut? Mengapa dibuat
+konstanta ?
+4. Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah
+Anda buat!
+5. Apa kegunaan method pada Langkah 11 dan 13 dalam lifecyle state ?
+6. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke
+spreadsheet yang telah disediakan!
