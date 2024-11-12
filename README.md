@@ -22,7 +22,7 @@ spreadsheet yang telah disediakan!
 
 1 hasil pratikum dokumentasi
  
- ![screenshoot praktikum_model_view](../assets/images/hasil.png)
+ ![screenshoot praktikum_model_view](assets/images/hasil.png)
 
 2 Jelaskan maksud dari langkah 4 pada praktikum tersebut! Mengapa dilakukan
 demikian?
@@ -45,7 +45,7 @@ konstanta ?
 4 Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah
 Anda buat!
 
-![Sreenshoot](..\assets\images\image4.png) 
+![Sreenshoot](assets\images\image4.png) 
 
 dari langkah 9 yang di tambahkan 
 
